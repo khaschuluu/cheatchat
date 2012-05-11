@@ -6,10 +6,19 @@ var express = require('express');
 var app = express.createServer();
 
 
-// development mode configurations
-app.configure('development', function() {
+// configurations
+app.configure(function() {
   // static directory
   app.use('/static', express['static'](__dirname + '/static'));
+
+  // views path, view engine
+  app.set('views', __dirname + '/views');
+  app.set('view engine', 'jade');
+});
+
+
+// development only configurations
+app.configure('development', function() {
 });
 
 
