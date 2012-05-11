@@ -14,3 +14,8 @@ Contribute
 ----------
 
 Fork and send pull request. That's enough.
+
+License
+-------
+
+Licensed under the MIT license.
