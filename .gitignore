@@ -1,0 +1,9 @@
+# we're always using *.less
+*.css
+
+# but sometimes using *.css :D
+!.bootstrap.css
+!.bootstrap-responsive.css
+
+# don't ignore .gitignore
+!.gitignore
